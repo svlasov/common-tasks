@@ -10,3 +10,4 @@ sudo add-apt-repository \
        ubuntu-$(lsb_release -cs) \
        main"
 sudo apt-get update
+sudo apt-get -y install docker-engine
